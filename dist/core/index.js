@@ -51,4 +51,3 @@ function createMarkdownFromComments(comments) {
 }
 exports.createMarkdownFromComments = createMarkdownFromComments;
 exports.generateDocumentation = (0, fp_1.compose)(createMarkdownFromComments, getCommentsFromText);
-//# sourceMappingURL=index.js.map

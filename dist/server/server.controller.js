@@ -14,10 +14,10 @@ var __param = (this && this.__param) || function (paramIndex, decorator) {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.ApiController = void 0;
 const common_1 = require("@nestjs/common");
-const index_1 = require("../packages/core/index");
+const index_1 = require("../core/index");
 let ApiController = class ApiController {
     getAll() {
-        return 'List of documents';
+        return 'Hello world';
     }
     generate(body) {
         return (0, index_1.generateDocumentation)(body);
@@ -40,4 +40,3 @@ ApiController = __decorate([
     (0, common_1.Controller)('api')
 ], ApiController);
 exports.ApiController = ApiController;
-//# sourceMappingURL=api.controller.js.map
