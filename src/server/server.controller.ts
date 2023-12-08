@@ -1,11 +1,11 @@
 import { Controller, Get, Post, Body } from '@nestjs/common';
 import { generateDocumentation } from '../core/index';
 
-@Controller('api')
+@Controller('server')
 export class ApiController {
   @Get()
   getAll(): string {
-    return 'List of documents';
+    return 'Hello World';
   }
 
   @Post('/generate')

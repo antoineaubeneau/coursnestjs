@@ -22,9 +22,9 @@ describe('Api Controller', () => {
   });
 
   describe('getAll', () => {
-    it('should return "List of documents"', () => {
+    it('should return "Hello World"', () => {
       const result = controller.getAll();
-      assert.strictEqual(result, 'List of documents');
+      assert.strictEqual(result, 'Hello World');
     });
   });
 });
